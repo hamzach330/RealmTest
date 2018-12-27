@@ -1,6 +1,7 @@
 package com.example.hamzamasood.realmtest.app;
 
 import android.app.Application;
+import android.util.Log;
 
 import io.realm.Realm;
 import io.realm.RealmConfiguration;
@@ -17,6 +18,8 @@ public class RealmApplication extends Application {
 
                 .build();
         Realm.setDefaultConfiguration(config);
+
+        Log.d("Hamza ","Masood ");
     }
 
 
